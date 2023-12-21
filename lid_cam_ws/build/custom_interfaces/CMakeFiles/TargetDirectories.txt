@@ -1,0 +1,10 @@
+/home/anthony/lidar_camera_overlay/lid_cam_ws/build/custom_interfaces/CMakeFiles/install/strip.dir
+/home/anthony/lidar_camera_overlay/lid_cam_ws/build/custom_interfaces/CMakeFiles/install/local.dir
+/home/anthony/lidar_camera_overlay/lid_cam_ws/build/custom_interfaces/CMakeFiles/install.dir
+/home/anthony/lidar_camera_overlay/lid_cam_ws/build/custom_interfaces/CMakeFiles/list_install_components.dir
+/home/anthony/lidar_camera_overlay/lid_cam_ws/build/custom_interfaces/CMakeFiles/rebuild_cache.dir
+/home/anthony/lidar_camera_overlay/lid_cam_ws/build/custom_interfaces/CMakeFiles/edit_cache.dir
+/home/anthony/lidar_camera_overlay/lid_cam_ws/build/custom_interfaces/CMakeFiles/test.dir
+/home/anthony/lidar_camera_overlay/lid_cam_ws/build/custom_interfaces/CMakeFiles/custom_interfaces_uninstall.dir
+/home/anthony/lidar_camera_overlay/lid_cam_ws/build/custom_interfaces/CMakeFiles/custom_interfaces.dir
+/home/anthony/lidar_camera_overlay/lid_cam_ws/build/custom_interfaces/CMakeFiles/uninstall.dir

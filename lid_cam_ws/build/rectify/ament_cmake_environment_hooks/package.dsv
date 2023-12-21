@@ -1,0 +1,4 @@
+source;share/rectify/local_setup.bash
+source;share/rectify/local_setup.dsv
+source;share/rectify/local_setup.sh
+source;share/rectify/local_setup.zsh

@@ -1,0 +1,63 @@
+running egg_info
+creating ../../build/lid_cam_calib/lid_cam_calib.egg-info
+writing ../../build/lid_cam_calib/lid_cam_calib.egg-info/PKG-INFO
+writing dependency_links to ../../build/lid_cam_calib/lid_cam_calib.egg-info/dependency_links.txt
+writing entry points to ../../build/lid_cam_calib/lid_cam_calib.egg-info/entry_points.txt
+writing requirements to ../../build/lid_cam_calib/lid_cam_calib.egg-info/requires.txt
+writing top-level names to ../../build/lid_cam_calib/lid_cam_calib.egg-info/top_level.txt
+writing manifest file '../../build/lid_cam_calib/lid_cam_calib.egg-info/SOURCES.txt'
+reading manifest file '../../build/lid_cam_calib/lid_cam_calib.egg-info/SOURCES.txt'
+writing manifest file '../../build/lid_cam_calib/lid_cam_calib.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/build
+creating /home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/build/lib
+creating /home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/build/lib/lid_cam_calib
+copying lid_cam_calib/ceptonTime.py -> /home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/build/lib/lid_cam_calib
+copying lid_cam_calib/oneframeDepth.py -> /home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/build/lib/lid_cam_calib
+copying lid_cam_calib/#BACKUP OF FRAMESAVE AT 17 MAY.py -> /home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/build/lib/lid_cam_calib
+copying lid_cam_calib/timer.py -> /home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/build/lib/lid_cam_calib
+copying lid_cam_calib/oneframe.py -> /home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/build/lib/lid_cam_calib
+copying lid_cam_calib/frame_save.py -> /home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/build/lib/lid_cam_calib
+copying lid_cam_calib/lidar_lidar.py -> /home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/build/lib/lid_cam_calib
+copying lid_cam_calib/frame_save_slider.py -> /home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/build/lib/lid_cam_calib
+copying lid_cam_calib/tuning.py -> /home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/build/lib/lid_cam_calib
+copying lid_cam_calib/__init__.py -> /home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/build/lib/lid_cam_calib
+running install
+running install_lib
+creating /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages/lid_cam_calib
+copying /home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/build/lib/lid_cam_calib/ceptonTime.py -> /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages/lid_cam_calib
+copying /home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/build/lib/lid_cam_calib/oneframeDepth.py -> /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages/lid_cam_calib
+copying /home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/build/lib/lid_cam_calib/#BACKUP OF FRAMESAVE AT 17 MAY.py -> /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages/lid_cam_calib
+copying /home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/build/lib/lid_cam_calib/timer.py -> /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages/lid_cam_calib
+copying /home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/build/lib/lid_cam_calib/oneframe.py -> /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages/lid_cam_calib
+copying /home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/build/lib/lid_cam_calib/frame_save.py -> /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages/lid_cam_calib
+copying /home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/build/lib/lid_cam_calib/lidar_lidar.py -> /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages/lid_cam_calib
+copying /home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/build/lib/lid_cam_calib/frame_save_slider.py -> /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages/lid_cam_calib
+copying /home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/build/lib/lid_cam_calib/tuning.py -> /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages/lid_cam_calib
+copying /home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/build/lib/lid_cam_calib/__init__.py -> /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages/lid_cam_calib
+byte-compiling /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages/lid_cam_calib/ceptonTime.py to ceptonTime.cpython-38.pyc
+byte-compiling /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages/lid_cam_calib/oneframeDepth.py to oneframeDepth.cpython-38.pyc
+byte-compiling /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages/lid_cam_calib/#BACKUP OF FRAMESAVE AT 17 MAY.py to #BACKUP OF FRAMESAVE AT 17 MAY.cpython-38.pyc
+byte-compiling /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages/lid_cam_calib/timer.py to timer.cpython-38.pyc
+byte-compiling /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages/lid_cam_calib/oneframe.py to oneframe.cpython-38.pyc
+byte-compiling /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages/lid_cam_calib/frame_save.py to frame_save.cpython-38.pyc
+byte-compiling /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages/lid_cam_calib/lidar_lidar.py to lidar_lidar.cpython-38.pyc
+byte-compiling /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages/lid_cam_calib/frame_save_slider.py to frame_save_slider.cpython-38.pyc
+byte-compiling /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages/lid_cam_calib/tuning.py to tuning.cpython-38.pyc
+byte-compiling /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages/lid_cam_calib/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/share/ament_index
+creating /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/share/ament_index/resource_index
+creating /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/share/ament_index/resource_index/packages
+copying resource/lid_cam_calib -> /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/share/ament_index/resource_index/packages
+copying package.xml -> /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/share/lid_cam_calib
+running install_egg_info
+Copying ../../build/lid_cam_calib/lid_cam_calib.egg-info to /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages/lid_cam_calib-0.0.0-py3.8.egg-info
+running install_scripts
+Installing cepTime script to /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/lid_cam_calib
+Installing frame_save script to /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/lid_cam_calib
+Installing lidar_lidar script to /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/lid_cam_calib
+Installing rectify script to /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/lid_cam_calib
+Installing timer script to /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/lid_cam_calib
+writing list of installed files to '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/install.log'

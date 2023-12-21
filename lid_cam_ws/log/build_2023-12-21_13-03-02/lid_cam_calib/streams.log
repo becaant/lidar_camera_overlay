@@ -1,0 +1,28 @@
+[1.705s] Invoking command in '/home/anthony/lidar_camera_overlay/lid_cam_ws/src/lid_cam_calib': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/prefix_override:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lid_cam_calib build --build-base /home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/build install --record /home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/install.log --install-scripts $base/lib/lid_cam_calib --single-version-externally-managed
+[2.009s] running egg_info
+[2.010s] writing ../../build/lid_cam_calib/lid_cam_calib.egg-info/PKG-INFO
+[2.012s] writing dependency_links to ../../build/lid_cam_calib/lid_cam_calib.egg-info/dependency_links.txt
+[2.013s] writing entry points to ../../build/lid_cam_calib/lid_cam_calib.egg-info/entry_points.txt
+[2.013s] writing requirements to ../../build/lid_cam_calib/lid_cam_calib.egg-info/requires.txt
+[2.013s] writing top-level names to ../../build/lid_cam_calib/lid_cam_calib.egg-info/top_level.txt
+[2.066s] reading manifest file '../../build/lid_cam_calib/lid_cam_calib.egg-info/SOURCES.txt'
+[2.069s] writing manifest file '../../build/lid_cam_calib/lid_cam_calib.egg-info/SOURCES.txt'
+[2.069s] running build
+[2.069s] running build_py
+[2.069s] copying lid_cam_calib/frame_save.py -> /home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/build/lib/lid_cam_calib
+[2.071s] running install
+[2.072s] running install_lib
+[2.074s] copying /home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/build/lib/lid_cam_calib/frame_save.py -> /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages/lid_cam_calib
+[2.075s] byte-compiling /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages/lid_cam_calib/frame_save.py to frame_save.cpython-38.pyc
+[2.081s] running install_data
+[2.088s] running install_egg_info
+[2.089s] removing '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages/lid_cam_calib-0.0.0-py3.8.egg-info' (and everything under it)
+[2.090s] Copying ../../build/lid_cam_calib/lid_cam_calib.egg-info to /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages/lid_cam_calib-0.0.0-py3.8.egg-info
+[2.090s] running install_scripts
+[2.115s] Installing cepTime script to /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/lid_cam_calib
+[2.115s] Installing frame_save script to /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/lid_cam_calib
+[2.115s] Installing lidar_lidar script to /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/lid_cam_calib
+[2.115s] Installing rectify script to /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/lid_cam_calib
+[2.115s] Installing timer script to /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/lid_cam_calib
+[2.115s] writing list of installed files to '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/install.log'
+[2.144s] Invoked command in '/home/anthony/lidar_camera_overlay/lid_cam_ws/src/lid_cam_calib' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/prefix_override:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lid_cam_calib build --build-base /home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/build install --record /home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/install.log --install-scripts $base/lib/lid_cam_calib --single-version-externally-managed

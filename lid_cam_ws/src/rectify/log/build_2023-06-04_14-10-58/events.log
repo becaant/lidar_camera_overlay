@@ -1,0 +1,143 @@
+[0.000000] (-) TimerEvent: {}
+[0.001677] (rectify) JobQueued: {'identifier': 'rectify', 'dependencies': OrderedDict()}
+[0.001728] (rectify) JobStarted: {'identifier': 'rectify'}
+[0.009891] (rectify) JobProgress: {'identifier': 'rectify', 'progress': 'cmake'}
+[0.010303] (rectify) Command: {'cmd': ['/usr/bin/cmake', '/home/anthony/workspaces/lid_cam_ws/src/rectify', '-DCMAKE_INSTALL_PREFIX=/home/anthony/workspaces/lid_cam_ws/src/rectify/install/rectify'], 'cwd': '/home/anthony/workspaces/lid_cam_ws/src/rectify/build/rectify', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'anthony'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/anthony/workspaces/lid_cam_ws/install/perception_frame/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{4dd1e689-b517-5f39-947d-78e8a8bdf958}'), ('HOME', '/home/anthony'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/anthony/workspaces/lid_cam_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anthony/workspaces/lid_cam_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'anthony'), ('NAME', 'ABsLaptop'), ('WSL_INTEROP', '/run/WSL/1484_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/anthony/miniconda3/bin:/home/anthony/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python38/Scripts:/mnt/c/Python38:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/MinGW/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/ProgramData/chocolatey/lib/cunit/lib:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/log4cxx/lib:/mnt/c/ProgramData/chocolatey/lib/bullet/lib:/mnt/c/Program Files/Cppcheck:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/becaa/Documents/_DesignTeams/Autodrive/_SYSIntegration/ROS2xllmt:/mnt/c/Program Files/PuTTY:/mnt/c/Program Files (x86)/dotnet:/mnt/c/Users/becaa/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/becaa/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'a2616900-665a-4d22-8f0f-e79b1b3b0045'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/anthony/workspaces/lid_cam_ws/install/rel_vel:/home/anthony/workspaces/lid_cam_ws/install/lid_cam_calib:/home/anthony/workspaces/lid_cam_ws/install/ip_parser:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/anthony/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('PWD', '/home/anthony/workspaces/lid_cam_ws/src/rectify/build/rectify'), ('CONDA_EXE', '/home/anthony/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/anthony/workspaces/lid_cam_ws/build/rel_vel:/home/anthony/workspaces/lid_cam_ws/install/rel_vel/lib/python3.8/site-packages:/home/anthony/workspaces/lid_cam_ws/build/lid_cam_calib:/home/anthony/workspaces/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages:/home/anthony/workspaces/lid_cam_ws/install/perception_frame/lib/python3.8/site-packages:/home/anthony/workspaces/lid_cam_ws/build/ip_parser:/home/anthony/workspaces/lid_cam_ws/install/ip_parser/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/anthony/miniconda3'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/anthony/workspaces/lid_cam_ws/install/perception_frame:/home/anthony/workspaces/lid_cam_ws/install/rel_vel:/home/anthony/workspaces/lid_cam_ws/install/lid_cam_calib:/home/anthony/workspaces/lid_cam_ws/install/ip_parser:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[0.130743] (-) TimerEvent: {}
+[0.249061] (-) TimerEvent: {}
+[0.292259] (rectify) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.369148] (-) TimerEvent: {}
+[0.500539] (-) TimerEvent: {}
+[0.629036] (-) TimerEvent: {}
+[0.648605] (rectify) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.749112] (-) TimerEvent: {}
+[0.843503] (rectify) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.869026] (-) TimerEvent: {}
+[0.989159] (-) TimerEvent: {}
+[1.013574] (rectify) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.014155] (rectify) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.109128] (-) TimerEvent: {}
+[1.213996] (rectify) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.214203] (-) TimerEvent: {}
+[1.221272] (rectify) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.221590] (rectify) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.223234] (rectify) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.319110] (-) TimerEvent: {}
+[1.374133] (rectify) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.374836] (rectify) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.450088] (-) TimerEvent: {}
+[1.547133] (rectify) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.554558] (rectify) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.554698] (-) TimerEvent: {}
+[1.554962] (rectify) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.556480] (rectify) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.575883] (rectify) StdoutLine: {'line': b'-- Found PythonInterp: /home/anthony/miniconda3/bin/python3 (found suitable version "3.10.8", minimum required is "3") \n'}
+[1.576116] (rectify) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/anthony/miniconda3/bin/python3\n'}
+[1.685661] (-) TimerEvent: {}
+[1.694755] (rectify) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.816771] (-) TimerEvent: {}
+[1.948080] (-) TimerEvent: {}
+[1.966186] (rectify) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.970766] (rectify) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.079073] (-) TimerEvent: {}
+[2.210305] (-) TimerEvent: {}
+[2.341494] (-) TimerEvent: {}
+[2.472736] (-) TimerEvent: {}
+[2.603984] (-) TimerEvent: {}
+[2.735178] (-) TimerEvent: {}
+[2.859050] (-) TimerEvent: {}
+[2.990222] (-) TimerEvent: {}
+[3.121450] (-) TimerEvent: {}
+[3.252766] (-) TimerEvent: {}
+[3.384022] (-) TimerEvent: {}
+[3.515219] (-) TimerEvent: {}
+[3.639185] (-) TimerEvent: {}
+[3.643739] (rectify) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.770105] (-) TimerEvent: {}
+[3.901382] (-) TimerEvent: {}
+[4.032728] (-) TimerEvent: {}
+[4.164072] (-) TimerEvent: {}
+[4.295289] (-) TimerEvent: {}
+[4.426469] (-) TimerEvent: {}
+[4.557745] (-) TimerEvent: {}
+[4.688975] (-) TimerEvent: {}
+[4.819137] (-) TimerEvent: {}
+[4.950364] (-) TimerEvent: {}
+[5.081644] (-) TimerEvent: {}
+[5.207182] (-) TimerEvent: {}
+[5.338457] (-) TimerEvent: {}
+[5.469594] (-) TimerEvent: {}
+[5.600791] (-) TimerEvent: {}
+[5.732045] (-) TimerEvent: {}
+[5.786285] (rectify) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[5.863037] (-) TimerEvent: {}
+[5.994221] (-) TimerEvent: {}
+[6.125435] (-) TimerEvent: {}
+[6.256693] (-) TimerEvent: {}
+[6.387977] (-) TimerEvent: {}
+[6.519178] (-) TimerEvent: {}
+[6.650415] (-) TimerEvent: {}
+[6.781614] (-) TimerEvent: {}
+[6.912828] (-) TimerEvent: {}
+[7.044050] (-) TimerEvent: {}
+[7.175269] (-) TimerEvent: {}
+[7.306511] (-) TimerEvent: {}
+[7.437776] (-) TimerEvent: {}
+[7.569012] (-) TimerEvent: {}
+[7.700204] (-) TimerEvent: {}
+[7.831338] (-) TimerEvent: {}
+[7.962592] (-) TimerEvent: {}
+[8.093877] (-) TimerEvent: {}
+[8.225096] (-) TimerEvent: {}
+[8.356406] (-) TimerEvent: {}
+[8.487632] (-) TimerEvent: {}
+[8.618770] (-) TimerEvent: {}
+[8.749945] (-) TimerEvent: {}
+[8.881200] (-) TimerEvent: {}
+[9.012407] (-) TimerEvent: {}
+[9.051736] (rectify) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.090016] (rectify) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[9.091022] (rectify) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.091626] (rectify) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[9.143379] (-) TimerEvent: {}
+[9.274700] (-) TimerEvent: {}
+[9.280235] (rectify) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[9.280569] (rectify) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.405702] (-) TimerEvent: {}
+[9.496073] (rectify) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[9.496434] (rectify) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[9.536711] (-) TimerEvent: {}
+[9.667894] (-) TimerEvent: {}
+[9.683636] (rectify) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[9.684114] (rectify) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[9.798897] (-) TimerEvent: {}
+[9.890814] (rectify) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[9.891546] (rectify) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.929817] (-) TimerEvent: {}
+[9.989479] (rectify) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[10.039231] (-) TimerEvent: {}
+[10.068975] (rectify) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[10.092527] (rectify) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[10.109463] (rectify) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[10.109595] (rectify) StderrLine: {'line': b'  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 21, in <module>\n'}
+[10.109655] (rectify) StderrLine: {'line': b'    from catkin_pkg.package import parse_package_string\n'}
+[10.109710] (rectify) StderrLine: {'line': b"ModuleNotFoundError: No module named 'catkin_pkg'\n"}
+[10.111477] (rectify) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):\n'}
+[10.111580] (rectify) StderrLine: {'line': b'  execute_process(/home/anthony/miniconda3/bin/python3\n'}
+[10.111646] (rectify) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[10.111703] (rectify) StderrLine: {'line': b'  /home/anthony/workspaces/lid_cam_ws/src/rectify/package.xml\n'}
+[10.111758] (rectify) StderrLine: {'line': b'  /home/anthony/workspaces/lid_cam_ws/src/rectify/build/rectify/ament_cmake_core/package.cmake)\n'}
+[10.111812] (rectify) StderrLine: {'line': b'  returned error code 1\n'}
+[10.111865] (rectify) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[10.111920] (rectify) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[10.111972] (rectify) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[10.112036] (rectify) StderrLine: {'line': b'  CMakeLists.txt:34 (ament_lint_auto_find_test_dependencies)\n'}
+[10.112097] (rectify) StderrLine: {'line': b'\n'}
+[10.112150] (rectify) StderrLine: {'line': b'\n'}
+[10.112772] (rectify) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[10.112881] (rectify) StdoutLine: {'line': b'See also "/home/anthony/workspaces/lid_cam_ws/src/rectify/build/rectify/CMakeFiles/CMakeOutput.log".\n'}
+[10.112944] (rectify) StdoutLine: {'line': b'See also "/home/anthony/workspaces/lid_cam_ws/src/rectify/build/rectify/CMakeFiles/CMakeError.log".\n'}
+[10.120572] (rectify) CommandEnded: {'returncode': 1}
+[10.138806] (rectify) JobEnded: {'identifier': 'rectify', 'rc': 1}
+[10.139916] (-) TimerEvent: {}
+[10.140006] (-) EventReactorShutdown: {}

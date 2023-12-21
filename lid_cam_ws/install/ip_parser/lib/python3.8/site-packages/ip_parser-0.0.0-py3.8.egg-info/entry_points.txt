@@ -1,0 +1,3 @@
+[console_scripts]
+ip_parser = ip_parser.ip_parser:main
+

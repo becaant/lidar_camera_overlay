@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing rel_vel.egg-info/PKG-INFO
+writing dependency_links to rel_vel.egg-info/dependency_links.txt
+writing entry points to rel_vel.egg-info/entry_points.txt
+writing requirements to rel_vel.egg-info/requires.txt
+writing top-level names to rel_vel.egg-info/top_level.txt
+reading manifest file 'rel_vel.egg-info/SOURCES.txt'
+writing manifest file 'rel_vel.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/lib/python3.8/site-packages/site.py
+Creating /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/lib/python3.8/site-packages/rel-vel.egg-link (link to .)
+Installing rel_vel script to /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/lib/rel_vel
+
+Installed /home/anthony/lidar_camera_overlay/lid_cam_ws/build/rel_vel
+running install_data

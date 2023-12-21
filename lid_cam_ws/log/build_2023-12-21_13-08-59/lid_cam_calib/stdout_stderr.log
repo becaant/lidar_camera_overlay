@@ -1,0 +1,20 @@
+running develop
+running egg_info
+writing lid_cam_calib.egg-info/PKG-INFO
+writing dependency_links to lid_cam_calib.egg-info/dependency_links.txt
+writing entry points to lid_cam_calib.egg-info/entry_points.txt
+writing requirements to lid_cam_calib.egg-info/requires.txt
+writing top-level names to lid_cam_calib.egg-info/top_level.txt
+reading manifest file 'lid_cam_calib.egg-info/SOURCES.txt'
+writing manifest file 'lid_cam_calib.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages/site.py
+Creating /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages/lid-cam-calib.egg-link (link to .)
+Installing cepTime script to /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/lid_cam_calib
+Installing frame_save script to /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/lid_cam_calib
+Installing lidar_lidar script to /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/lid_cam_calib
+Installing rectify script to /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/lid_cam_calib
+Installing timer script to /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/lid_cam_calib
+
+Installed /home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib
+running install_data

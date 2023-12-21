@@ -1,0 +1,16 @@
+/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/lib/rectify/image_rectifier
+/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/ament_index/resource_index/package_run_dependencies/rectify
+/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/ament_index/resource_index/parent_prefix_path/rectify
+/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/environment/ament_prefix_path.sh
+/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/environment/ament_prefix_path.dsv
+/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/environment/path.sh
+/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/environment/path.dsv
+/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/local_setup.bash
+/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/local_setup.sh
+/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/local_setup.zsh
+/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/local_setup.dsv
+/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/package.dsv
+/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/ament_index/resource_index/packages/rectify
+/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/cmake/rectifyConfig.cmake
+/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/cmake/rectifyConfig-version.cmake
+/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/package.xml

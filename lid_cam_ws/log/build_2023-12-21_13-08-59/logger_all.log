@@ -1,0 +1,264 @@
+[0.546s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.547s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f1c18610370>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f1c18610370>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f1c186108b0>)
+[0.565s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.565s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.565s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.565s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.565s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.565s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.565s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/anthony/lidar_camera_overlay/lid_cam_ws'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/lid_cam_calib) by extensions ['ignore', 'ignore_ament_install']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/lid_cam_calib) by extension 'ignore'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/lid_cam_calib) by extension 'ignore_ament_install'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/lid_cam_calib) by extensions ['colcon_pkg']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/lid_cam_calib) by extension 'colcon_pkg'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/lid_cam_calib) by extensions ['colcon_meta']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/lid_cam_calib) by extension 'colcon_meta'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/lid_cam_calib) by extensions ['ros']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/lid_cam_calib) by extension 'ros'
+[0.582s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lid_cam_calib' with type 'ros.ament_python' and name 'lid_cam_calib'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/rectify) by extensions ['ignore', 'ignore_ament_install']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/rectify) by extension 'ignore'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/rectify) by extension 'ignore_ament_install'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/rectify) by extensions ['colcon_pkg']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/rectify) by extension 'colcon_pkg'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/rectify) by extensions ['colcon_meta']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/rectify) by extension 'colcon_meta'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/rectify) by extensions ['ros']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/rectify) by extension 'ros'
+[0.583s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rectify' with type 'ros.ament_cmake' and name 'rectify'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/rel_vel) by extensions ['ignore', 'ignore_ament_install']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/rel_vel) by extension 'ignore'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/rel_vel) by extension 'ignore_ament_install'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/rel_vel) by extensions ['colcon_pkg']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/rel_vel) by extension 'colcon_pkg'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/rel_vel) by extensions ['colcon_meta']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/rel_vel) by extension 'colcon_meta'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/rel_vel) by extensions ['ros']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/rel_vel) by extension 'ros'
+[0.583s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rel_vel' with type 'ros.ament_python' and name 'rel_vel'
+[0.583s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.583s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.583s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.583s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.583s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.597s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.597s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.598s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/perception_frame' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.599s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/anthony/lidar_camera_overlay/lid_cam_ws/install
+[0.600s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 302 installed packages in /opt/ros/foxy
+[0.602s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'lid_cam_calib' build argument 'cmake_args' from command line to 'None'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'lid_cam_calib' build argument 'cmake_target' from command line to 'None'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'lid_cam_calib' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'lid_cam_calib' build argument 'cmake_clean_cache' from command line to 'False'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'lid_cam_calib' build argument 'cmake_clean_first' from command line to 'False'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'lid_cam_calib' build argument 'cmake_force_configure' from command line to 'False'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'lid_cam_calib' build argument 'ament_cmake_args' from command line to 'None'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'lid_cam_calib' build argument 'catkin_cmake_args' from command line to 'None'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'lid_cam_calib' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.650s] DEBUG:colcon.colcon_core.verb:Building package 'lid_cam_calib' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib', 'merge_install': False, 'path': '/home/anthony/lidar_camera_overlay/lid_cam_ws/src/lid_cam_calib', 'symlink_install': True, 'test_result_base': None}
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'rectify' build argument 'cmake_args' from command line to 'None'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'rectify' build argument 'cmake_target' from command line to 'None'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'rectify' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'rectify' build argument 'cmake_clean_cache' from command line to 'False'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'rectify' build argument 'cmake_clean_first' from command line to 'False'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'rectify' build argument 'cmake_force_configure' from command line to 'False'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'rectify' build argument 'ament_cmake_args' from command line to 'None'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'rectify' build argument 'catkin_cmake_args' from command line to 'None'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'rectify' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.651s] DEBUG:colcon.colcon_core.verb:Building package 'rectify' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify', 'merge_install': False, 'path': '/home/anthony/lidar_camera_overlay/lid_cam_ws/src/rectify', 'symlink_install': True, 'test_result_base': None}
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'rel_vel' build argument 'cmake_args' from command line to 'None'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'rel_vel' build argument 'cmake_target' from command line to 'None'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'rel_vel' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'rel_vel' build argument 'cmake_clean_cache' from command line to 'False'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'rel_vel' build argument 'cmake_clean_first' from command line to 'False'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'rel_vel' build argument 'cmake_force_configure' from command line to 'False'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'rel_vel' build argument 'ament_cmake_args' from command line to 'None'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'rel_vel' build argument 'catkin_cmake_args' from command line to 'None'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'rel_vel' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.652s] DEBUG:colcon.colcon_core.verb:Building package 'rel_vel' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rel_vel', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel', 'merge_install': False, 'path': '/home/anthony/lidar_camera_overlay/lid_cam_ws/src/rel_vel', 'symlink_install': True, 'test_result_base': None}
+[0.652s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.655s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.655s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/anthony/lidar_camera_overlay/lid_cam_ws/src/lid_cam_calib' with build type 'ament_python'
+[0.655s] Level 1:colcon.colcon_core.shell:create_environment_hook('lid_cam_calib', 'ament_prefix_path')
+[0.659s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/share/lid_cam_calib/hook/ament_prefix_path.ps1'
+[0.659s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/share/lid_cam_calib/hook/ament_prefix_path.dsv'
+[0.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/share/lid_cam_calib/hook/ament_prefix_path.sh'
+[0.661s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.661s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.666s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/anthony/lidar_camera_overlay/lid_cam_ws/src/rectify' with build type 'ament_cmake'
+[0.666s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/anthony/lidar_camera_overlay/lid_cam_ws/src/rectify'
+[0.667s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.667s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.675s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/anthony/lidar_camera_overlay/lid_cam_ws/src/rel_vel' with build type 'ament_python'
+[0.676s] Level 1:colcon.colcon_core.shell:create_environment_hook('rel_vel', 'ament_prefix_path')
+[0.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/share/rel_vel/hook/ament_prefix_path.ps1'
+[0.678s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/share/rel_vel/hook/ament_prefix_path.dsv'
+[0.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/share/rel_vel/hook/ament_prefix_path.sh'
+[0.682s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.682s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.854s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/anthony/lidar_camera_overlay/lid_cam_ws/src/lid_cam_calib'
+[0.855s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.855s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/anthony/lidar_camera_overlay/lid_cam_ws/src/rectify -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify
+[1.050s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/anthony/lidar_camera_overlay/lid_cam_ws/src/rel_vel'
+[1.052s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.052s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.420s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/share/ament_index/resource_index/packages/lid_cam_calib
+[1.420s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/share/lid_cam_calib/package.xml
+[1.420s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/lid_cam_calib/cepTime
+[1.420s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/lid_cam_calib/frame_save
+[1.420s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/lid_cam_calib/lidar_lidar
+[1.420s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/lid_cam_calib/rectify
+[1.420s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/lid_cam_calib/timer
+[1.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/prefix_override:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/build --no-deps install_data
+[1.429s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/share/ament_index/resource_index/packages/rel_vel
+[1.429s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/share/rel_vel/package.xml
+[1.429s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/lib/rel_vel/rel_vel
+[1.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rel_vel': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rel_vel/prefix_override:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/anthony/lidar_camera_overlay/lid_cam_ws/build/rel_vel/build --no-deps install_data
+[1.822s] Level 1:colcon.colcon_core.shell:create_environment_hook('lid_cam_calib', 'pythonpath_develop')
+[1.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/share/lid_cam_calib/hook/pythonpath_develop.ps1'
+[1.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/prefix_override:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/build --no-deps install_data
+[1.826s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/share/lid_cam_calib/hook/pythonpath_develop.dsv'
+[1.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/share/lid_cam_calib/hook/pythonpath_develop.sh'
+[1.831s] Level 1:colcon.colcon_core.environment:checking '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib' for CMake module files
+[1.832s] Level 1:colcon.colcon_core.environment:checking '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib' for CMake config files
+[1.832s] Level 1:colcon.colcon_core.environment:checking '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib'
+[1.833s] Level 1:colcon.colcon_core.environment:checking '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/bin'
+[1.833s] Level 1:colcon.colcon_core.environment:checking '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/pkgconfig/lid_cam_calib.pc'
+[1.833s] Level 1:colcon.colcon_core.environment:checking '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages'
+[1.833s] Level 1:colcon.colcon_core.shell:create_environment_hook('lid_cam_calib', 'pythonpath')
+[1.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/share/lid_cam_calib/hook/pythonpath.ps1'
+[1.834s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/share/lid_cam_calib/hook/pythonpath.dsv'
+[1.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/share/lid_cam_calib/hook/pythonpath.sh'
+[1.835s] Level 1:colcon.colcon_core.environment:checking '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/bin'
+[1.835s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lid_cam_calib)
+[1.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/share/lid_cam_calib/package.ps1'
+[1.838s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/share/lid_cam_calib/package.dsv'
+[1.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/share/lid_cam_calib/package.sh'
+[1.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/share/lid_cam_calib/package.bash'
+[1.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/share/lid_cam_calib/package.zsh'
+[1.841s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/share/colcon-core/packages/lid_cam_calib)
+[1.844s] Level 1:colcon.colcon_core.shell:create_environment_hook('rel_vel', 'pythonpath_develop')
+[1.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rel_vel/share/rel_vel/hook/pythonpath_develop.ps1'
+[1.847s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rel_vel' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rel_vel/prefix_override:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/anthony/lidar_camera_overlay/lid_cam_ws/build/rel_vel/build --no-deps install_data
+[1.848s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rel_vel/share/rel_vel/hook/pythonpath_develop.dsv'
+[1.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rel_vel/share/rel_vel/hook/pythonpath_develop.sh'
+[1.850s] Level 1:colcon.colcon_core.environment:checking '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel' for CMake module files
+[1.850s] Level 1:colcon.colcon_core.environment:checking '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel' for CMake config files
+[1.850s] Level 1:colcon.colcon_core.environment:checking '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/lib'
+[1.850s] Level 1:colcon.colcon_core.environment:checking '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/bin'
+[1.850s] Level 1:colcon.colcon_core.environment:checking '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/lib/pkgconfig/rel_vel.pc'
+[1.851s] Level 1:colcon.colcon_core.environment:checking '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/lib/python3.8/site-packages'
+[1.851s] Level 1:colcon.colcon_core.shell:create_environment_hook('rel_vel', 'pythonpath')
+[1.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/share/rel_vel/hook/pythonpath.ps1'
+[1.852s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/share/rel_vel/hook/pythonpath.dsv'
+[1.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/share/rel_vel/hook/pythonpath.sh'
+[1.852s] Level 1:colcon.colcon_core.environment:checking '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/bin'
+[1.852s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rel_vel)
+[1.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/share/rel_vel/package.ps1'
+[1.854s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/share/rel_vel/package.dsv'
+[1.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/share/rel_vel/package.sh'
+[1.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/share/rel_vel/package.bash'
+[1.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/share/rel_vel/package.zsh'
+[1.855s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/share/colcon-core/packages/rel_vel)
+[11.917s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/anthony/lidar_camera_overlay/lid_cam_ws/src/rectify -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify
+[11.917s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify -- -j16 -l16
+[12.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify -- -j16 -l16
+[12.720s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify
+[12.898s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rectify)
+[12.903s] Level 1:colcon.colcon_core.environment:checking '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify' for CMake module files
+[12.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify
+[12.906s] Level 1:colcon.colcon_core.environment:checking '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify' for CMake config files
+[12.906s] Level 1:colcon.colcon_core.shell:create_environment_hook('rectify', 'cmake_prefix_path')
+[12.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/hook/cmake_prefix_path.ps1'
+[12.910s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/hook/cmake_prefix_path.dsv'
+[12.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/hook/cmake_prefix_path.sh'
+[12.911s] Level 1:colcon.colcon_core.environment:checking '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/lib'
+[12.911s] Level 1:colcon.colcon_core.environment:checking '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/bin'
+[12.912s] Level 1:colcon.colcon_core.environment:checking '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/lib/pkgconfig/rectify.pc'
+[12.912s] Level 1:colcon.colcon_core.environment:checking '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/lib/python3.8/site-packages'
+[12.912s] Level 1:colcon.colcon_core.environment:checking '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/bin'
+[12.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/package.ps1'
+[12.915s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/package.dsv'
+[12.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/package.sh'
+[12.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/package.bash'
+[12.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/package.zsh'
+[12.916s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/colcon-core/packages/rectify)
+[12.960s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rectify)
+[12.965s] Level 1:colcon.colcon_core.environment:checking '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify' for CMake module files
+[12.966s] Level 1:colcon.colcon_core.environment:checking '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify' for CMake config files
+[12.966s] Level 1:colcon.colcon_core.shell:create_environment_hook('rectify', 'cmake_prefix_path')
+[12.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/hook/cmake_prefix_path.ps1'
+[12.970s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/hook/cmake_prefix_path.dsv'
+[12.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/hook/cmake_prefix_path.sh'
+[12.972s] Level 1:colcon.colcon_core.environment:checking '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/lib'
+[12.972s] Level 1:colcon.colcon_core.environment:checking '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/bin'
+[12.973s] Level 1:colcon.colcon_core.environment:checking '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/lib/pkgconfig/rectify.pc'
+[12.973s] Level 1:colcon.colcon_core.environment:checking '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/lib/python3.8/site-packages'
+[12.973s] Level 1:colcon.colcon_core.environment:checking '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/bin'
+[12.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/package.ps1'
+[12.975s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/package.dsv'
+[12.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/package.sh'
+[12.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/package.bash'
+[12.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/package.zsh'
+[12.978s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/colcon-core/packages/rectify)
+[12.978s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.978s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.979s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.979s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.121s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[13.121s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.121s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.121s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.131s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[13.132s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.134s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/local_setup.ps1'
+[13.135s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/_local_setup_util_ps1.py'
+[13.136s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/setup.ps1'
+[13.138s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/local_setup.sh'
+[13.138s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/_local_setup_util_sh.py'
+[13.139s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/setup.sh'
+[13.140s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/local_setup.bash'
+[13.140s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/setup.bash'
+[13.142s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/local_setup.zsh'
+[13.142s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/setup.zsh'

@@ -1,0 +1,10 @@
+/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify/CMakeFiles/install/strip.dir
+/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify/CMakeFiles/install/local.dir
+/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify/CMakeFiles/install.dir
+/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify/CMakeFiles/list_install_components.dir
+/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify/CMakeFiles/rebuild_cache.dir
+/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify/CMakeFiles/edit_cache.dir
+/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify/CMakeFiles/test.dir
+/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify/CMakeFiles/rectify_uninstall.dir
+/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify/CMakeFiles/image_rectifier.dir
+/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify/CMakeFiles/uninstall.dir

@@ -1,0 +1,16 @@
+/home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces/lib/custom_interfaces/custom_interfaces
+/home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces
+/home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces
+/home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh
+/home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv
+/home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces/share/custom_interfaces/environment/path.sh
+/home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces/share/custom_interfaces/environment/path.dsv
+/home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces/share/custom_interfaces/local_setup.bash
+/home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces/share/custom_interfaces/local_setup.sh
+/home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces/share/custom_interfaces/local_setup.zsh
+/home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces/share/custom_interfaces/local_setup.dsv
+/home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces/share/custom_interfaces/package.dsv
+/home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces
+/home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake
+/home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake
+/home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces/share/custom_interfaces/package.xml

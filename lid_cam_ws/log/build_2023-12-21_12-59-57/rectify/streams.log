@@ -1,0 +1,80 @@
+[0.419s] Invoking command in '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/anthony/lidar_camera_overlay/lid_cam_ws/src/rectify -DCMAKE_INSTALL_PREFIX=/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify
+[0.828s] -- The C compiler identification is GNU 9.4.0
+[1.608s] -- The CXX compiler identification is GNU 9.4.0
+[1.963s] -- Check for working C compiler: /usr/bin/cc
+[2.300s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.300s] -- Detecting C compiler ABI info
+[2.673s] -- Detecting C compiler ABI info - done
+[2.681s] -- Detecting C compile features
+[2.681s] -- Detecting C compile features - done
+[2.683s] -- Check for working CXX compiler: /usr/bin/c++
+[3.011s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.013s] -- Detecting CXX compiler ABI info
+[3.271s] -- Detecting CXX compiler ABI info - done
+[3.282s] -- Detecting CXX compile features
+[3.283s] -- Detecting CXX compile features - done
+[3.300s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.334s] -- Found PythonInterp: /home/anthony/miniconda3/bin/python3 (found suitable version "3.10.8", minimum required is "3") 
+[3.334s] -- Using PYTHON_EXECUTABLE: /home/anthony/miniconda3/bin/python3
+[3.546s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.125s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.143s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[7.267s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[10.830s] -- Found FastRTPS: /opt/ros/foxy/include  
+[15.422s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[15.524s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[15.529s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[15.533s] -- Looking for pthread.h
+[15.965s] -- Looking for pthread.h - found
+[15.965s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[16.361s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[16.362s] -- Looking for pthread_create in pthreads
+[16.728s] -- Looking for pthread_create in pthreads - not found
+[16.729s] -- Looking for pthread_create in pthread
+[17.276s] -- Looking for pthread_create in pthread - found
+[17.278s] -- Found Threads: TRUE  
+[17.483s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[17.592s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[17.627s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[17.708s] -- Added test 'copyright' to check source files copyright and LICENSE
+[17.711s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[17.711s] -- Configured cppcheck include dirs: 
+[17.711s] -- Configured cppcheck exclude dirs and/or files: 
+[17.714s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[17.714s] -- Configured cpplint exclude dirs and/or files: 
+[17.715s] -- Added test 'flake8' to check Python code syntax and style conventions
+[17.716s] -- Added test 'lint_cmake' to check CMake code style
+[17.717s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[17.719s] -- Added test 'uncrustify' to check C / C++ code style
+[17.719s] -- Configured uncrustify additional arguments: 
+[17.720s] -- Added test 'xmllint' to check XML markup files
+[17.722s] -- Configuring done
+[17.745s] -- Generating done
+[17.747s] -- Build files have been written to: /home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify
+[17.763s] Invoked command in '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/anthony/lidar_camera_overlay/lid_cam_ws/src/rectify -DCMAKE_INSTALL_PREFIX=/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify
+[17.764s] Invoking command in '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify -- -j16 -l16
+[17.839s] [35m[1mScanning dependencies of target image_rectifier[0m
+[18.496s] [ 50%] [32mBuilding CXX object CMakeFiles/image_rectifier.dir/src/image_rectifier.cpp.o[0m
+[23.832s] [100%] [32m[1mLinking CXX executable image_rectifier[0m
+[25.409s] [100%] Built target image_rectifier
+[25.425s] Invoked command in '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify -- -j16 -l16
+[25.455s] Invoking command in '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify
+[25.468s] -- Install configuration: ""
+[25.469s] -- Installing: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/lib/rectify/image_rectifier
+[25.473s] -- Set runtime path of "/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/lib/rectify/image_rectifier" to ""
+[25.474s] -- Installing: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/ament_index/resource_index/package_run_dependencies/rectify
+[25.474s] -- Installing: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/ament_index/resource_index/parent_prefix_path/rectify
+[25.475s] -- Installing: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/environment/ament_prefix_path.sh
+[25.475s] -- Installing: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/environment/ament_prefix_path.dsv
+[25.476s] -- Installing: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/environment/path.sh
+[25.476s] -- Installing: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/environment/path.dsv
+[25.477s] -- Installing: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/local_setup.bash
+[25.478s] -- Installing: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/local_setup.sh
+[25.478s] -- Installing: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/local_setup.zsh
+[25.478s] -- Installing: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/local_setup.dsv
+[25.478s] -- Installing: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/package.dsv
+[25.479s] -- Installing: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/ament_index/resource_index/packages/rectify
+[25.479s] -- Installing: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/cmake/rectifyConfig.cmake
+[25.479s] -- Installing: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/cmake/rectifyConfig-version.cmake
+[25.479s] -- Installing: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/package.xml
+[25.486s] Invoked command in '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify

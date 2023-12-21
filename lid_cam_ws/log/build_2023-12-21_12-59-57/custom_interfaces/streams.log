@@ -1,0 +1,58 @@
+[0.059s] Invoking command in '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/anthony/lidar_camera_overlay/lid_cam_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces
+[0.641s] -- The C compiler identification is GNU 9.4.0
+[1.496s] -- The CXX compiler identification is GNU 9.4.0
+[1.895s] -- Check for working C compiler: /usr/bin/cc
+[2.279s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.291s] -- Detecting C compiler ABI info
+[2.663s] -- Detecting C compiler ABI info - done
+[2.686s] -- Detecting C compile features
+[2.687s] -- Detecting C compile features - done
+[2.691s] -- Check for working CXX compiler: /usr/bin/c++
+[3.029s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.030s] -- Detecting CXX compiler ABI info
+[3.299s] -- Detecting CXX compiler ABI info - done
+[3.311s] -- Detecting CXX compile features
+[3.311s] -- Detecting CXX compile features - done
+[3.333s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.366s] -- Found PythonInterp: /home/anthony/miniconda3/bin/python3 (found suitable version "3.10.8", minimum required is "3") 
+[3.366s] -- Using PYTHON_EXECUTABLE: /home/anthony/miniconda3/bin/python3
+[3.578s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.719s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.721s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.721s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/anthony/lidar_camera_overlay/lid_cam_ws/src/custom_interfaces/include>
+[3.721s] -- Configured cppcheck exclude dirs and/or files: 
+[3.723s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.723s] -- Configured cpplint exclude dirs and/or files: 
+[3.725s] -- Added test 'lint_cmake' to check CMake code style
+[3.727s] -- Added test 'uncrustify' to check C / C++ code style
+[3.727s] -- Configured uncrustify additional arguments: 
+[3.729s] -- Added test 'xmllint' to check XML markup files
+[3.733s] -- Configuring done
+[3.737s] -- Generating done
+[3.738s] -- Build files have been written to: /home/anthony/lidar_camera_overlay/lid_cam_ws/build/custom_interfaces
+[3.744s] Invoked command in '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/anthony/lidar_camera_overlay/lid_cam_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces
+[3.750s] Invoking command in '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/anthony/lidar_camera_overlay/lid_cam_ws/build/custom_interfaces -- -j16 -l16
+[3.821s] [35m[1mScanning dependencies of target custom_interfaces[0m
+[3.849s] [ 50%] [32mBuilding CXX object CMakeFiles/custom_interfaces.dir/src/custom_interfaces.cpp.o[0m
+[3.921s] [100%] [32m[1mLinking CXX executable custom_interfaces[0m
+[4.330s] [100%] Built target custom_interfaces
+[4.343s] Invoked command in '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/anthony/lidar_camera_overlay/lid_cam_ws/build/custom_interfaces -- -j16 -l16
+[4.411s] Invoking command in '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/anthony/lidar_camera_overlay/lid_cam_ws/build/custom_interfaces
+[4.424s] -- Install configuration: ""
+[4.425s] -- Installing: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces/lib/custom_interfaces/custom_interfaces
+[4.426s] -- Installing: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces
+[4.427s] -- Installing: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces
+[4.428s] -- Installing: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh
+[4.428s] -- Installing: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv
+[4.428s] -- Installing: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces/share/custom_interfaces/environment/path.sh
+[4.428s] -- Installing: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces/share/custom_interfaces/environment/path.dsv
+[4.428s] -- Installing: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces/share/custom_interfaces/local_setup.bash
+[4.428s] -- Installing: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces/share/custom_interfaces/local_setup.sh
+[4.429s] -- Installing: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces/share/custom_interfaces/local_setup.zsh
+[4.429s] -- Installing: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces/share/custom_interfaces/local_setup.dsv
+[4.429s] -- Installing: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces/share/custom_interfaces/package.dsv
+[4.429s] -- Installing: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces
+[4.429s] -- Installing: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake
+[4.429s] -- Installing: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake
+[4.429s] -- Installing: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces/share/custom_interfaces/package.xml
+[4.435s] Invoked command in '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/anthony/lidar_camera_overlay/lid_cam_ws/build/custom_interfaces

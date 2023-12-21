@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/rel_vel/rel_vel.egg-info
+writing ../../build/rel_vel/rel_vel.egg-info/PKG-INFO
+writing dependency_links to ../../build/rel_vel/rel_vel.egg-info/dependency_links.txt
+writing entry points to ../../build/rel_vel/rel_vel.egg-info/entry_points.txt
+writing requirements to ../../build/rel_vel/rel_vel.egg-info/requires.txt
+writing top-level names to ../../build/rel_vel/rel_vel.egg-info/top_level.txt
+writing manifest file '../../build/rel_vel/rel_vel.egg-info/SOURCES.txt'
+reading manifest file '../../build/rel_vel/rel_vel.egg-info/SOURCES.txt'
+writing manifest file '../../build/rel_vel/rel_vel.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/anthony/lidar_camera_overlay/lid_cam_ws/build/rel_vel/build
+creating /home/anthony/lidar_camera_overlay/lid_cam_ws/build/rel_vel/build/lib
+creating /home/anthony/lidar_camera_overlay/lid_cam_ws/build/rel_vel/build/lib/rel_vel
+copying rel_vel/rel_vel.py -> /home/anthony/lidar_camera_overlay/lid_cam_ws/build/rel_vel/build/lib/rel_vel
+copying rel_vel/__init__.py -> /home/anthony/lidar_camera_overlay/lid_cam_ws/build/rel_vel/build/lib/rel_vel
+running install
+running install_lib
+creating /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/lib/python3.8/site-packages/rel_vel
+copying /home/anthony/lidar_camera_overlay/lid_cam_ws/build/rel_vel/build/lib/rel_vel/rel_vel.py -> /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/lib/python3.8/site-packages/rel_vel
+copying /home/anthony/lidar_camera_overlay/lid_cam_ws/build/rel_vel/build/lib/rel_vel/__init__.py -> /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/lib/python3.8/site-packages/rel_vel
+byte-compiling /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/lib/python3.8/site-packages/rel_vel/rel_vel.py to rel_vel.cpython-38.pyc
+byte-compiling /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/lib/python3.8/site-packages/rel_vel/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/share/ament_index
+creating /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/share/ament_index/resource_index
+creating /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/share/ament_index/resource_index/packages
+copying resource/rel_vel -> /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/share/ament_index/resource_index/packages
+copying package.xml -> /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/share/rel_vel
+running install_egg_info
+Copying ../../build/rel_vel/rel_vel.egg-info to /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/lib/python3.8/site-packages/rel_vel-0.0.0-py3.8.egg-info
+running install_scripts
+Installing rel_vel script to /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/lib/rel_vel
+writing list of installed files to '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rel_vel/install.log'

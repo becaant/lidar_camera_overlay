@@ -1,0 +1,229 @@
+[0.000000] (-) TimerEvent: {}
+[0.000272] (lid_cam_calib) JobQueued: {'identifier': 'lid_cam_calib', 'dependencies': OrderedDict()}
+[0.000319] (rectify) JobQueued: {'identifier': 'rectify', 'dependencies': OrderedDict()}
+[0.000338] (rel_vel) JobQueued: {'identifier': 'rel_vel', 'dependencies': OrderedDict()}
+[0.000354] (lid_cam_calib) JobStarted: {'identifier': 'lid_cam_calib'}
+[0.011598] (rectify) JobStarted: {'identifier': 'rectify'}
+[0.023299] (rel_vel) JobStarted: {'identifier': 'rel_vel'}
+[0.098692] (-) TimerEvent: {}
+[0.200310] (-) TimerEvent: {}
+[0.207495] (rectify) JobProgress: {'identifier': 'rectify', 'progress': 'cmake'}
+[0.208864] (rectify) Command: {'cmd': ['/usr/bin/cmake', '/home/anthony/lidar_camera_overlay/lid_cam_ws/src/rectify', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify'], 'cwd': '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'anthony'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/perception_frame/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{4dd1e689-b517-5f39-947d-78e8a8bdf958}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/anthony'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/anthony/lidar_camera_overlay'), ('ROS_PYTHON_VERSION', '3'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anthony/lidar_camera_overlay/lid_cam_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'anthony'), ('NAME', 'ABsLaptop'), ('WSL_INTEROP', '/run/WSL/9_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/anthony/miniconda3/bin:/home/anthony/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python38/Scripts:/mnt/c/Python38:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/MinGW/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/ProgramData/chocolatey/lib/cunit/lib:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/log4cxx/lib:/mnt/c/ProgramData/chocolatey/lib/bullet/lib:/mnt/c/Program Files/Cppcheck:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/becaa/Documents/_DesignTeams/Autodrive/_SYSIntegration/ROS2xllmt:/mnt/c/Program Files/PuTTY:/mnt/c/Program Files (x86)/dotnet:/mnt/c/Users/becaa/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/becaa/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '44b4dbd4-75d2-4976-b958-369b2e3ad0dc'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/anthony/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('PWD', '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify'), ('CONDA_EXE', '/home/anthony/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/anthony/workspaces/lid_cam_ws/build/rel_vel:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/lib/python3.8/site-packages:/home/anthony/workspaces/lid_cam_ws/build/lid_cam_calib:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/perception_frame/lib/python3.8/site-packages:/home/anthony/workspaces/lid_cam_ws/build/ip_parser:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/anthony/miniconda3'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/perception_frame:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.248738] (rectify) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.300580] (-) TimerEvent: {}
+[0.313013] (rectify) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/anthony/miniconda3/bin/python3\n'}
+[0.400995] (-) TimerEvent: {}
+[0.501697] (-) TimerEvent: {}
+[0.602320] (-) TimerEvent: {}
+[0.659668] (rectify) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.700278] (rectify) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.702541] (-) TimerEvent: {}
+[0.768938] (lid_cam_calib) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/build', '--no-deps', 'install_data'], 'cwd': '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'USER': 'anthony', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/perception_frame/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'WT_PROFILE_ID': '{4dd1e689-b517-5f39-947d-78e8a8bdf958}', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/anthony', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/anthony/lidar_camera_overlay', 'ROS_PYTHON_VERSION': '3', '_CE_M': '', 'WSL_DISTRO_NAME': 'Ubuntu-20.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/anthony/lidar_camera_overlay/lid_cam_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'anthony', 'NAME': 'ABsLaptop', 'WSL_INTEROP': '/run/WSL/9_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/home/anthony/miniconda3/bin:/home/anthony/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python38/Scripts:/mnt/c/Python38:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/MinGW/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/ProgramData/chocolatey/lib/cunit/lib:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/log4cxx/lib:/mnt/c/ProgramData/chocolatey/lib/bullet/lib:/mnt/c/Program Files/Cppcheck:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/becaa/Documents/_DesignTeams/Autodrive/_SYSIntegration/ROS2xllmt:/mnt/c/Program Files/PuTTY:/mnt/c/Program Files (x86)/dotnet:/mnt/c/Users/becaa/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/becaa/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': '44b4dbd4-75d2-4976-b958-369b2e3ad0dc', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser:/opt/ros/foxy', 'CONDA_PYTHON_EXE': '/home/anthony/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', 'PWD': '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib', 'CONDA_EXE': '/home/anthony/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib/prefix_override:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages:/home/anthony/workspaces/lid_cam_ws/build/rel_vel:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/lib/python3.8/site-packages:/home/anthony/workspaces/lid_cam_ws/build/lid_cam_calib:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/perception_frame/lib/python3.8/site-packages:/home/anthony/workspaces/lid_cam_ws/build/ip_parser:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'CONDA_PREFIX': '/home/anthony/miniconda3', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/perception_frame:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[0.776243] (rel_vel) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rel_vel/build', '--no-deps', 'install_data'], 'cwd': '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rel_vel', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'USER': 'anthony', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/perception_frame/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'WT_PROFILE_ID': '{4dd1e689-b517-5f39-947d-78e8a8bdf958}', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/anthony', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/anthony/lidar_camera_overlay', 'ROS_PYTHON_VERSION': '3', '_CE_M': '', 'WSL_DISTRO_NAME': 'Ubuntu-20.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/anthony/lidar_camera_overlay/lid_cam_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'anthony', 'NAME': 'ABsLaptop', 'WSL_INTEROP': '/run/WSL/9_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/home/anthony/miniconda3/bin:/home/anthony/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python38/Scripts:/mnt/c/Python38:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/MinGW/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/ProgramData/chocolatey/lib/cunit/lib:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/log4cxx/lib:/mnt/c/ProgramData/chocolatey/lib/bullet/lib:/mnt/c/Program Files/Cppcheck:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/becaa/Documents/_DesignTeams/Autodrive/_SYSIntegration/ROS2xllmt:/mnt/c/Program Files/PuTTY:/mnt/c/Program Files (x86)/dotnet:/mnt/c/Users/becaa/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/becaa/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': '44b4dbd4-75d2-4976-b958-369b2e3ad0dc', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser:/opt/ros/foxy', 'CONDA_PYTHON_EXE': '/home/anthony/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', 'PWD': '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rel_vel', 'CONDA_EXE': '/home/anthony/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rel_vel/prefix_override:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/lib/python3.8/site-packages:/home/anthony/workspaces/lid_cam_ws/build/rel_vel:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/lib/python3.8/site-packages:/home/anthony/workspaces/lid_cam_ws/build/lid_cam_calib:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/perception_frame/lib/python3.8/site-packages:/home/anthony/workspaces/lid_cam_ws/build/ip_parser:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'CONDA_PREFIX': '/home/anthony/miniconda3', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/perception_frame:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[0.802711] (-) TimerEvent: {}
+[0.903424] (-) TimerEvent: {}
+[0.971909] (lid_cam_calib) StdoutLine: {'line': b'running develop\n'}
+[1.001383] (rel_vel) StdoutLine: {'line': b'running develop\n'}
+[1.003765] (-) TimerEvent: {}
+[1.077591] (lid_cam_calib) StdoutLine: {'line': b'running egg_info\n'}
+[1.078331] (lid_cam_calib) StdoutLine: {'line': b'writing lid_cam_calib.egg-info/PKG-INFO\n'}
+[1.078794] (lid_cam_calib) StdoutLine: {'line': b'writing dependency_links to lid_cam_calib.egg-info/dependency_links.txt\n'}
+[1.079129] (lid_cam_calib) StdoutLine: {'line': b'writing entry points to lid_cam_calib.egg-info/entry_points.txt\n'}
+[1.079298] (lid_cam_calib) StdoutLine: {'line': b'writing requirements to lid_cam_calib.egg-info/requires.txt\n'}
+[1.079457] (lid_cam_calib) StdoutLine: {'line': b'writing top-level names to lid_cam_calib.egg-info/top_level.txt\n'}
+[1.104258] (lid_cam_calib) StdoutLine: {'line': b"reading manifest file 'lid_cam_calib.egg-info/SOURCES.txt'\n"}
+[1.104703] (-) TimerEvent: {}
+[1.105394] (lid_cam_calib) StdoutLine: {'line': b"writing manifest file 'lid_cam_calib.egg-info/SOURCES.txt'\n"}
+[1.108637] (rel_vel) StdoutLine: {'line': b'running egg_info\n'}
+[1.109051] (rel_vel) StdoutLine: {'line': b'writing rel_vel.egg-info/PKG-INFO\n'}
+[1.109365] (rel_vel) StdoutLine: {'line': b'writing dependency_links to rel_vel.egg-info/dependency_links.txt\n'}
+[1.109434] (rel_vel) StdoutLine: {'line': b'writing entry points to rel_vel.egg-info/entry_points.txt\n'}
+[1.109493] (rel_vel) StdoutLine: {'line': b'writing requirements to rel_vel.egg-info/requires.txt\n'}
+[1.109548] (rel_vel) StdoutLine: {'line': b'writing top-level names to rel_vel.egg-info/top_level.txt\n'}
+[1.112812] (rectify) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.119941] (rectify) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.133366] (rel_vel) StdoutLine: {'line': b"reading manifest file 'rel_vel.egg-info/SOURCES.txt'\n"}
+[1.134191] (rel_vel) StdoutLine: {'line': b"writing manifest file 'rel_vel.egg-info/SOURCES.txt'\n"}
+[1.135488] (lid_cam_calib) StdoutLine: {'line': b'running build_ext\n'}
+[1.137821] (lid_cam_calib) StdoutLine: {'line': b'Creating /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages/site.py\n'}
+[1.140448] (lid_cam_calib) StdoutLine: {'line': b'Creating /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages/lid-cam-calib.egg-link (link to .)\n'}
+[1.141223] (lid_cam_calib) StdoutLine: {'line': b'Installing cepTime script to /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/lid_cam_calib\n'}
+[1.142045] (lid_cam_calib) StdoutLine: {'line': b'Installing frame_save script to /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/lid_cam_calib\n'}
+[1.142611] (lid_cam_calib) StdoutLine: {'line': b'Installing lidar_lidar script to /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/lid_cam_calib\n'}
+[1.142807] (lid_cam_calib) StdoutLine: {'line': b'Installing rectify script to /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/lid_cam_calib\n'}
+[1.143199] (lid_cam_calib) StdoutLine: {'line': b'Installing timer script to /home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/lid_cam_calib\n'}
+[1.143362] (lid_cam_calib) StdoutLine: {'line': b'\n'}
+[1.143466] (lid_cam_calib) StdoutLine: {'line': b'Installed /home/anthony/lidar_camera_overlay/lid_cam_ws/build/lid_cam_calib\n'}
+[1.143531] (lid_cam_calib) StdoutLine: {'line': b'running install_data\n'}
+[1.160022] (rel_vel) StdoutLine: {'line': b'running build_ext\n'}
+[1.160204] (rel_vel) StdoutLine: {'line': b'Creating /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/lib/python3.8/site-packages/site.py\n'}
+[1.161768] (rel_vel) StdoutLine: {'line': b'Creating /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/lib/python3.8/site-packages/rel-vel.egg-link (link to .)\n'}
+[1.162721] (rel_vel) StdoutLine: {'line': b'Installing rel_vel script to /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/lib/rel_vel\n'}
+[1.162830] (rel_vel) StdoutLine: {'line': b'\n'}
+[1.162887] (rel_vel) StdoutLine: {'line': b'Installed /home/anthony/lidar_camera_overlay/lid_cam_ws/build/rel_vel\n'}
+[1.162944] (rel_vel) StdoutLine: {'line': b'running install_data\n'}
+[1.168618] (lid_cam_calib) CommandEnded: {'returncode': 0}
+[1.186467] (lid_cam_calib) JobEnded: {'identifier': 'lid_cam_calib', 'rc': 0}
+[1.190321] (rel_vel) CommandEnded: {'returncode': 0}
+[1.199325] (rel_vel) JobEnded: {'identifier': 'rel_vel', 'rc': 0}
+[1.204917] (-) TimerEvent: {}
+[1.305245] (-) TimerEvent: {}
+[1.405855] (-) TimerEvent: {}
+[1.506435] (-) TimerEvent: {}
+[1.607334] (-) TimerEvent: {}
+[1.708139] (-) TimerEvent: {}
+[1.808645] (-) TimerEvent: {}
+[1.909268] (-) TimerEvent: {}
+[2.009922] (-) TimerEvent: {}
+[2.110684] (-) TimerEvent: {}
+[2.211287] (-) TimerEvent: {}
+[2.312168] (-) TimerEvent: {}
+[2.413206] (-) TimerEvent: {}
+[2.514062] (-) TimerEvent: {}
+[2.614936] (-) TimerEvent: {}
+[2.715649] (-) TimerEvent: {}
+[2.816337] (-) TimerEvent: {}
+[2.917127] (-) TimerEvent: {}
+[3.017961] (-) TimerEvent: {}
+[3.118947] (-) TimerEvent: {}
+[3.219824] (-) TimerEvent: {}
+[3.320873] (-) TimerEvent: {}
+[3.421499] (-) TimerEvent: {}
+[3.522237] (-) TimerEvent: {}
+[3.623169] (-) TimerEvent: {}
+[3.723980] (-) TimerEvent: {}
+[3.824758] (-) TimerEvent: {}
+[3.925697] (-) TimerEvent: {}
+[4.026523] (-) TimerEvent: {}
+[4.127335] (-) TimerEvent: {}
+[4.228400] (-) TimerEvent: {}
+[4.329195] (-) TimerEvent: {}
+[4.429948] (-) TimerEvent: {}
+[4.530651] (-) TimerEvent: {}
+[4.631420] (-) TimerEvent: {}
+[4.731947] (-) TimerEvent: {}
+[4.832739] (-) TimerEvent: {}
+[4.933597] (-) TimerEvent: {}
+[5.034405] (-) TimerEvent: {}
+[5.135307] (-) TimerEvent: {}
+[5.236055] (-) TimerEvent: {}
+[5.336636] (-) TimerEvent: {}
+[5.437612] (-) TimerEvent: {}
+[5.538296] (-) TimerEvent: {}
+[5.639207] (-) TimerEvent: {}
+[5.739895] (-) TimerEvent: {}
+[5.841011] (-) TimerEvent: {}
+[5.941793] (-) TimerEvent: {}
+[6.042639] (-) TimerEvent: {}
+[6.143596] (-) TimerEvent: {}
+[6.244378] (-) TimerEvent: {}
+[6.345462] (-) TimerEvent: {}
+[6.446451] (-) TimerEvent: {}
+[6.547132] (-) TimerEvent: {}
+[6.647647] (-) TimerEvent: {}
+[6.748375] (-) TimerEvent: {}
+[6.849077] (-) TimerEvent: {}
+[6.949958] (-) TimerEvent: {}
+[7.050721] (-) TimerEvent: {}
+[7.151424] (-) TimerEvent: {}
+[7.252148] (-) TimerEvent: {}
+[7.352959] (-) TimerEvent: {}
+[7.454309] (-) TimerEvent: {}
+[7.555164] (-) TimerEvent: {}
+[7.655690] (-) TimerEvent: {}
+[7.756360] (-) TimerEvent: {}
+[7.857233] (-) TimerEvent: {}
+[7.957884] (-) TimerEvent: {}
+[8.058597] (-) TimerEvent: {}
+[8.159168] (-) TimerEvent: {}
+[8.259801] (-) TimerEvent: {}
+[8.360345] (-) TimerEvent: {}
+[8.461153] (-) TimerEvent: {}
+[8.561985] (-) TimerEvent: {}
+[8.662682] (-) TimerEvent: {}
+[8.763107] (-) TimerEvent: {}
+[8.863910] (-) TimerEvent: {}
+[8.964568] (-) TimerEvent: {}
+[9.065131] (-) TimerEvent: {}
+[9.165674] (-) TimerEvent: {}
+[9.266380] (-) TimerEvent: {}
+[9.367226] (-) TimerEvent: {}
+[9.467806] (-) TimerEvent: {}
+[9.568418] (-) TimerEvent: {}
+[9.669082] (-) TimerEvent: {}
+[9.769751] (-) TimerEvent: {}
+[9.870632] (-) TimerEvent: {}
+[9.971400] (-) TimerEvent: {}
+[10.071905] (-) TimerEvent: {}
+[10.172423] (-) TimerEvent: {}
+[10.273000] (-) TimerEvent: {}
+[10.373660] (-) TimerEvent: {}
+[10.474216] (-) TimerEvent: {}
+[10.570928] (rectify) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.574325] (-) TimerEvent: {}
+[10.654713] (rectify) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[10.659003] (rectify) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[10.674546] (-) TimerEvent: {}
+[10.775523] (-) TimerEvent: {}
+[10.876440] (-) TimerEvent: {}
+[10.877136] (rectify) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[10.976656] (-) TimerEvent: {}
+[11.013142] (rectify) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[11.050556] (rectify) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[11.076858] (-) TimerEvent: {}
+[11.177335] (-) TimerEvent: {}
+[11.180675] (rectify) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[11.194901] (rectify) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[11.195537] (rectify) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[11.195867] (rectify) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[11.198907] (rectify) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[11.199139] (rectify) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[11.200486] (rectify) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[11.202280] (rectify) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[11.203662] (rectify) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[11.208176] (rectify) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[11.208390] (rectify) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[11.209880] (rectify) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.217519] (rectify) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.250419] (rectify) StdoutLine: {'line': b'-- Generating done\n'}
+[11.252117] (rectify) StdoutLine: {'line': b'-- Build files have been written to: /home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify\n'}
+[11.260338] (rectify) CommandEnded: {'returncode': 0}
+[11.261010] (rectify) JobProgress: {'identifier': 'rectify', 'progress': 'build'}
+[11.261059] (rectify) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify', '--', '-j16', '-l16'], 'cwd': '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'anthony'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/perception_frame/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{4dd1e689-b517-5f39-947d-78e8a8bdf958}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/anthony'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/anthony/lidar_camera_overlay'), ('ROS_PYTHON_VERSION', '3'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anthony/lidar_camera_overlay/lid_cam_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'anthony'), ('NAME', 'ABsLaptop'), ('WSL_INTEROP', '/run/WSL/9_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/anthony/miniconda3/bin:/home/anthony/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python38/Scripts:/mnt/c/Python38:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/MinGW/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/ProgramData/chocolatey/lib/cunit/lib:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/log4cxx/lib:/mnt/c/ProgramData/chocolatey/lib/bullet/lib:/mnt/c/Program Files/Cppcheck:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/becaa/Documents/_DesignTeams/Autodrive/_SYSIntegration/ROS2xllmt:/mnt/c/Program Files/PuTTY:/mnt/c/Program Files (x86)/dotnet:/mnt/c/Users/becaa/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/becaa/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '44b4dbd4-75d2-4976-b958-369b2e3ad0dc'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/anthony/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('PWD', '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify'), ('CONDA_EXE', '/home/anthony/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/anthony/workspaces/lid_cam_ws/build/rel_vel:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/lib/python3.8/site-packages:/home/anthony/workspaces/lid_cam_ws/build/lid_cam_calib:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/perception_frame/lib/python3.8/site-packages:/home/anthony/workspaces/lid_cam_ws/build/ip_parser:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/anthony/miniconda3'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/perception_frame:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[11.277534] (-) TimerEvent: {}
+[11.332944] (rectify) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable image_rectifier\x1b[0m\n'}
+[11.377824] (-) TimerEvent: {}
+[11.478345] (-) TimerEvent: {}
+[11.579155] (-) TimerEvent: {}
+[11.679921] (-) TimerEvent: {}
+[11.780523] (-) TimerEvent: {}
+[11.881031] (-) TimerEvent: {}
+[11.981578] (-) TimerEvent: {}
+[12.006820] (rectify) StdoutLine: {'line': b'[100%] Built target image_rectifier\n'}
+[12.023003] (rectify) CommandEnded: {'returncode': 0}
+[12.046121] (rectify) JobProgress: {'identifier': 'rectify', 'progress': 'install'}
+[12.062720] (rectify) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify'], 'cwd': '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'anthony'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/perception_frame/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{4dd1e689-b517-5f39-947d-78e8a8bdf958}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/anthony'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/anthony/lidar_camera_overlay'), ('ROS_PYTHON_VERSION', '3'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anthony/lidar_camera_overlay/lid_cam_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'anthony'), ('NAME', 'ABsLaptop'), ('WSL_INTEROP', '/run/WSL/9_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/anthony/miniconda3/bin:/home/anthony/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python38/Scripts:/mnt/c/Python38:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/MinGW/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/ProgramData/chocolatey/lib/cunit/lib:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/log4cxx/lib:/mnt/c/ProgramData/chocolatey/lib/bullet/lib:/mnt/c/Program Files/Cppcheck:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/becaa/Documents/_DesignTeams/Autodrive/_SYSIntegration/ROS2xllmt:/mnt/c/Program Files/PuTTY:/mnt/c/Program Files (x86)/dotnet:/mnt/c/Users/becaa/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/becaa/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '44b4dbd4-75d2-4976-b958-369b2e3ad0dc'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/anthony/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('PWD', '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rectify'), ('CONDA_EXE', '/home/anthony/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/anthony/workspaces/lid_cam_ws/build/rel_vel:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/lib/python3.8/site-packages:/home/anthony/workspaces/lid_cam_ws/build/lid_cam_calib:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/perception_frame/lib/python3.8/site-packages:/home/anthony/workspaces/lid_cam_ws/build/ip_parser:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/anthony/miniconda3'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/perception_frame:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/custom_interfaces:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/lid_cam_calib:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[12.073454] (rectify) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.074158] (rectify) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.074703] (rectify) StdoutLine: {'line': b'-- Symlinking: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/lib/rectify/image_rectifier\n'}
+[12.081728] (-) TimerEvent: {}
+[12.084886] (rectify) StdoutLine: {'line': b'-- Symlinking: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/ament_index/resource_index/package_run_dependencies/rectify\n'}
+[12.094018] (rectify) StdoutLine: {'line': b'-- Symlinking: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/ament_index/resource_index/parent_prefix_path/rectify\n'}
+[12.103536] (rectify) StdoutLine: {'line': b'-- Symlinking: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/environment/ament_prefix_path.sh\n'}
+[12.112576] (rectify) StdoutLine: {'line': b'-- Symlinking: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/environment/ament_prefix_path.dsv\n'}
+[12.121921] (rectify) StdoutLine: {'line': b'-- Symlinking: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/environment/path.sh\n'}
+[12.129913] (rectify) StdoutLine: {'line': b'-- Symlinking: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/environment/path.dsv\n'}
+[12.136456] (rectify) StdoutLine: {'line': b'-- Symlinking: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/local_setup.bash\n'}
+[12.144168] (rectify) StdoutLine: {'line': b'-- Symlinking: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/local_setup.sh\n'}
+[12.154389] (rectify) StdoutLine: {'line': b'-- Symlinking: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/local_setup.zsh\n'}
+[12.163709] (rectify) StdoutLine: {'line': b'-- Symlinking: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/local_setup.dsv\n'}
+[12.173085] (rectify) StdoutLine: {'line': b'-- Symlinking: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/package.dsv\n'}
+[12.181901] (-) TimerEvent: {}
+[12.182388] (rectify) StdoutLine: {'line': b'-- Symlinking: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/ament_index/resource_index/packages/rectify\n'}
+[12.192688] (rectify) StdoutLine: {'line': b'-- Symlinking: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/cmake/rectifyConfig.cmake\n'}
+[12.202833] (rectify) StdoutLine: {'line': b'-- Symlinking: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/cmake/rectifyConfig-version.cmake\n'}
+[12.218578] (rectify) StdoutLine: {'line': b'-- Symlinking: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/package.xml\n'}
+[12.248215] (rectify) CommandEnded: {'returncode': 0}
+[12.282287] (-) TimerEvent: {}
+[12.323978] (rectify) JobEnded: {'identifier': 'rectify', 'rc': 0}
+[12.325788] (-) EventReactorShutdown: {}

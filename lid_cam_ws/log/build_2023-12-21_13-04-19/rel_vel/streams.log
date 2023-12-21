@@ -1,0 +1,21 @@
+[0.911s] Invoking command in '/home/anthony/lidar_camera_overlay/lid_cam_ws/src/rel_vel': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rel_vel/prefix_override:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rel_vel build --build-base /home/anthony/lidar_camera_overlay/lid_cam_ws/build/rel_vel/build install --record /home/anthony/lidar_camera_overlay/lid_cam_ws/build/rel_vel/install.log --install-scripts $base/lib/rel_vel --single-version-externally-managed
+[1.062s] running egg_info
+[1.062s] writing ../../build/rel_vel/rel_vel.egg-info/PKG-INFO
+[1.063s] writing dependency_links to ../../build/rel_vel/rel_vel.egg-info/dependency_links.txt
+[1.063s] writing entry points to ../../build/rel_vel/rel_vel.egg-info/entry_points.txt
+[1.064s] writing requirements to ../../build/rel_vel/rel_vel.egg-info/requires.txt
+[1.064s] writing top-level names to ../../build/rel_vel/rel_vel.egg-info/top_level.txt
+[1.089s] reading manifest file '../../build/rel_vel/rel_vel.egg-info/SOURCES.txt'
+[1.091s] writing manifest file '../../build/rel_vel/rel_vel.egg-info/SOURCES.txt'
+[1.091s] running build
+[1.091s] running build_py
+[1.091s] running install
+[1.092s] running install_lib
+[1.093s] running install_data
+[1.093s] running install_egg_info
+[1.096s] removing '/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/lib/python3.8/site-packages/rel_vel-0.0.0-py3.8.egg-info' (and everything under it)
+[1.096s] Copying ../../build/rel_vel/rel_vel.egg-info to /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/lib/python3.8/site-packages/rel_vel-0.0.0-py3.8.egg-info
+[1.097s] running install_scripts
+[1.111s] Installing rel_vel script to /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/lib/rel_vel
+[1.111s] writing list of installed files to '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rel_vel/install.log'
+[1.129s] Invoked command in '/home/anthony/lidar_camera_overlay/lid_cam_ws/src/rel_vel' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/anthony/lidar_camera_overlay/lid_cam_ws/build/rel_vel/prefix_override:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/rel_vel/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rel_vel build --build-base /home/anthony/lidar_camera_overlay/lid_cam_ws/build/rel_vel/build install --record /home/anthony/lidar_camera_overlay/lid_cam_ws/build/rel_vel/install.log --install-scripts $base/lib/rel_vel --single-version-externally-managed

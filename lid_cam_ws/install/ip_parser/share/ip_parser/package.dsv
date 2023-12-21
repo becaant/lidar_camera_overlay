@@ -1,0 +1,6 @@
+source;share/ip_parser/hook/pythonpath.ps1
+source;share/ip_parser/hook/pythonpath.dsv
+source;share/ip_parser/hook/pythonpath.sh
+source;share/ip_parser/hook/ament_prefix_path.ps1
+source;share/ip_parser/hook/ament_prefix_path.dsv
+source;share/ip_parser/hook/ament_prefix_path.sh

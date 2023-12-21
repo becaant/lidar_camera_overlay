@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/ip_parser/ip_parser.egg-info/PKG-INFO
+../../build/ip_parser/ip_parser.egg-info/SOURCES.txt
+../../build/ip_parser/ip_parser.egg-info/dependency_links.txt
+../../build/ip_parser/ip_parser.egg-info/entry_points.txt
+../../build/ip_parser/ip_parser.egg-info/requires.txt
+../../build/ip_parser/ip_parser.egg-info/top_level.txt
+../../build/ip_parser/ip_parser.egg-info/zip-safe
+ip_parser/__init__.py
+ip_parser/ip_parser.py
+resource/ip_parser
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

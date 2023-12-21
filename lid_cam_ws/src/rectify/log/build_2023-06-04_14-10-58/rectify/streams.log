@@ -1,0 +1,58 @@
+[0.011s] Invoking command in '/home/anthony/workspaces/lid_cam_ws/src/rectify/build/rectify': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anthony/workspaces/lid_cam_ws/install/rel_vel:/home/anthony/workspaces/lid_cam_ws/install/lid_cam_calib:/home/anthony/workspaces/lid_cam_ws/install/ip_parser:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/anthony/workspaces/lid_cam_ws/src/rectify -DCMAKE_INSTALL_PREFIX=/home/anthony/workspaces/lid_cam_ws/src/rectify/install/rectify
+[0.291s] -- The C compiler identification is GNU 9.4.0
+[0.647s] -- The CXX compiler identification is GNU 9.4.0
+[0.842s] -- Check for working C compiler: /usr/bin/cc
+[1.012s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.012s] -- Detecting C compiler ABI info
+[1.212s] -- Detecting C compiler ABI info - done
+[1.220s] -- Detecting C compile features
+[1.220s] -- Detecting C compile features - done
+[1.222s] -- Check for working CXX compiler: /usr/bin/c++
+[1.373s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.373s] -- Detecting CXX compiler ABI info
+[1.546s] -- Detecting CXX compiler ABI info - done
+[1.553s] -- Detecting CXX compile features
+[1.553s] -- Detecting CXX compile features - done
+[1.555s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.574s] -- Found PythonInterp: /home/anthony/miniconda3/bin/python3 (found suitable version "3.10.8", minimum required is "3") 
+[1.574s] -- Using PYTHON_EXECUTABLE: /home/anthony/miniconda3/bin/python3
+[1.693s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.965s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.969s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.642s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.785s] -- Found FastRTPS: /opt/ros/foxy/include  
+[9.050s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.088s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[9.089s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.090s] -- Looking for pthread.h
+[9.279s] -- Looking for pthread.h - found
+[9.279s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.495s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.495s] -- Looking for pthread_create in pthreads
+[9.682s] -- Looking for pthread_create in pthreads - not found
+[9.682s] -- Looking for pthread_create in pthread
+[9.889s] -- Looking for pthread_create in pthread - found
+[9.890s] -- Found Threads: TRUE  
+[9.988s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[10.067s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[10.091s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[10.108s] Traceback (most recent call last):
+[10.108s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 21, in <module>
+[10.108s]     from catkin_pkg.package import parse_package_string
+[10.108s] ModuleNotFoundError: No module named 'catkin_pkg'
+[10.110s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[10.110s]   execute_process(/home/anthony/miniconda3/bin/python3
+[10.110s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[10.110s]   /home/anthony/workspaces/lid_cam_ws/src/rectify/package.xml
+[10.110s]   /home/anthony/workspaces/lid_cam_ws/src/rectify/build/rectify/ament_cmake_core/package.cmake)
+[10.110s]   returned error code 1
+[10.110s] Call Stack (most recent call first):
+[10.110s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[10.110s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[10.110s]   CMakeLists.txt:34 (ament_lint_auto_find_test_dependencies)
+[10.110s] 
+[10.110s] 
+[10.111s] -- Configuring incomplete, errors occurred!
+[10.111s] See also "/home/anthony/workspaces/lid_cam_ws/src/rectify/build/rectify/CMakeFiles/CMakeOutput.log".
+[10.111s] See also "/home/anthony/workspaces/lid_cam_ws/src/rectify/build/rectify/CMakeFiles/CMakeError.log".
+[10.119s] Invoked command in '/home/anthony/workspaces/lid_cam_ws/src/rectify/build/rectify' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anthony/workspaces/lid_cam_ws/install/rel_vel:/home/anthony/workspaces/lid_cam_ws/install/lid_cam_calib:/home/anthony/workspaces/lid_cam_ws/install/ip_parser:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/anthony/workspaces/lid_cam_ws/src/rectify -DCMAKE_INSTALL_PREFIX=/home/anthony/workspaces/lid_cam_ws/src/rectify/install/rectify

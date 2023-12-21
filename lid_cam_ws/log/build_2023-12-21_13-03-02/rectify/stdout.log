@@ -1,0 +1,18 @@
+[100%] Built target image_rectifier
+-- Install configuration: ""
+-- Up-to-date: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/lib/rectify/image_rectifier
+-- Up-to-date: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/ament_index/resource_index/package_run_dependencies/rectify
+-- Up-to-date: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/ament_index/resource_index/parent_prefix_path/rectify
+-- Up-to-date: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/environment/ament_prefix_path.sh
+-- Up-to-date: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/environment/path.sh
+-- Up-to-date: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/environment/path.dsv
+-- Up-to-date: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/local_setup.bash
+-- Up-to-date: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/local_setup.sh
+-- Up-to-date: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/local_setup.zsh
+-- Up-to-date: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/local_setup.dsv
+-- Installing: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/package.dsv
+-- Up-to-date: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/ament_index/resource_index/packages/rectify
+-- Up-to-date: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/cmake/rectifyConfig.cmake
+-- Up-to-date: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/cmake/rectifyConfig-version.cmake
+-- Up-to-date: /home/anthony/lidar_camera_overlay/lid_cam_ws/install/rectify/share/rectify/package.xml

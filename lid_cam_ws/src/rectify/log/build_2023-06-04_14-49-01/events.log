@@ -1,0 +1,97 @@
+[0.000000] (-) TimerEvent: {}
+[0.001186] (rectify) JobQueued: {'identifier': 'rectify', 'dependencies': OrderedDict()}
+[0.001865] (rectify) JobStarted: {'identifier': 'rectify'}
+[0.010418] (rectify) JobProgress: {'identifier': 'rectify', 'progress': 'cmake'}
+[0.011518] (rectify) Command: {'cmd': ['/usr/bin/cmake', '/home/anthony/workspaces/lid_cam_ws/src/rectify', '-DCMAKE_INSTALL_PREFIX=/home/anthony/workspaces/lid_cam_ws/src/rectify/install/rectify'], 'cwd': '/home/anthony/workspaces/lid_cam_ws/src/rectify/build/rectify', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'anthony'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/anthony/workspaces/lid_cam_ws/install/perception_frame/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{4dd1e689-b517-5f39-947d-78e8a8bdf958}'), ('HOME', '/home/anthony'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/anthony/workspaces/lid_cam_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anthony/workspaces/lid_cam_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'anthony'), ('NAME', 'ABsLaptop'), ('WSL_INTEROP', '/run/WSL/1484_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/anthony/miniconda3/bin:/home/anthony/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python38/Scripts:/mnt/c/Python38:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/MinGW/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/ProgramData/chocolatey/lib/cunit/lib:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/log4cxx/lib:/mnt/c/ProgramData/chocolatey/lib/bullet/lib:/mnt/c/Program Files/Cppcheck:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/becaa/Documents/_DesignTeams/Autodrive/_SYSIntegration/ROS2xllmt:/mnt/c/Program Files/PuTTY:/mnt/c/Program Files (x86)/dotnet:/mnt/c/Users/becaa/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/becaa/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'a2616900-665a-4d22-8f0f-e79b1b3b0045'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/anthony/workspaces/lid_cam_ws/install/rel_vel:/home/anthony/workspaces/lid_cam_ws/install/lid_cam_calib:/home/anthony/workspaces/lid_cam_ws/install/ip_parser:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/anthony/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('PWD', '/home/anthony/workspaces/lid_cam_ws/src/rectify/build/rectify'), ('CONDA_EXE', '/home/anthony/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/anthony/workspaces/lid_cam_ws/build/rel_vel:/home/anthony/workspaces/lid_cam_ws/install/rel_vel/lib/python3.8/site-packages:/home/anthony/workspaces/lid_cam_ws/build/lid_cam_calib:/home/anthony/workspaces/lid_cam_ws/install/lid_cam_calib/lib/python3.8/site-packages:/home/anthony/workspaces/lid_cam_ws/install/perception_frame/lib/python3.8/site-packages:/home/anthony/workspaces/lid_cam_ws/build/ip_parser:/home/anthony/workspaces/lid_cam_ws/install/ip_parser/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/anthony/miniconda3'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/anthony/workspaces/lid_cam_ws/install/perception_frame:/home/anthony/workspaces/lid_cam_ws/install/rel_vel:/home/anthony/workspaces/lid_cam_ws/install/lid_cam_calib:/home/anthony/workspaces/lid_cam_ws/install/ip_parser:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[0.024852] (rectify) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.052153] (rectify) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/anthony/miniconda3/bin/python3\n'}
+[0.130737] (-) TimerEvent: {}
+[0.176638] (rectify) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.261991] (-) TimerEvent: {}
+[0.393494] (rectify) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.393709] (-) TimerEvent: {}
+[0.395853] (rectify) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.524952] (-) TimerEvent: {}
+[0.656334] (-) TimerEvent: {}
+[0.787701] (-) TimerEvent: {}
+[0.899161] (-) TimerEvent: {}
+[1.030513] (-) TimerEvent: {}
+[1.161860] (-) TimerEvent: {}
+[1.293191] (-) TimerEvent: {}
+[1.424665] (-) TimerEvent: {}
+[1.556130] (-) TimerEvent: {}
+[1.687549] (-) TimerEvent: {}
+[1.819044] (-) TimerEvent: {}
+[1.939071] (-) TimerEvent: {}
+[2.070524] (-) TimerEvent: {}
+[2.202081] (-) TimerEvent: {}
+[2.333400] (-) TimerEvent: {}
+[2.464713] (-) TimerEvent: {}
+[2.596097] (-) TimerEvent: {}
+[2.727465] (-) TimerEvent: {}
+[2.859073] (-) TimerEvent: {}
+[2.989367] (-) TimerEvent: {}
+[3.109197] (-) TimerEvent: {}
+[3.239046] (-) TimerEvent: {}
+[3.370543] (-) TimerEvent: {}
+[3.502016] (-) TimerEvent: {}
+[3.633357] (-) TimerEvent: {}
+[3.764713] (-) TimerEvent: {}
+[3.896059] (-) TimerEvent: {}
+[4.027464] (-) TimerEvent: {}
+[4.158860] (-) TimerEvent: {}
+[4.290239] (-) TimerEvent: {}
+[4.421691] (-) TimerEvent: {}
+[4.553034] (-) TimerEvent: {}
+[4.684440] (-) TimerEvent: {}
+[4.815783] (-) TimerEvent: {}
+[4.939252] (-) TimerEvent: {}
+[5.059042] (-) TimerEvent: {}
+[5.190510] (-) TimerEvent: {}
+[5.321989] (-) TimerEvent: {}
+[5.453391] (-) TimerEvent: {}
+[5.584752] (-) TimerEvent: {}
+[5.716111] (-) TimerEvent: {}
+[5.847487] (-) TimerEvent: {}
+[5.979057] (-) TimerEvent: {}
+[6.099211] (-) TimerEvent: {}
+[6.230544] (-) TimerEvent: {}
+[6.359150] (-) TimerEvent: {}
+[6.490546] (-) TimerEvent: {}
+[6.621909] (-) TimerEvent: {}
+[6.753213] (-) TimerEvent: {}
+[6.884664] (-) TimerEvent: {}
+[7.016029] (-) TimerEvent: {}
+[7.147583] (-) TimerEvent: {}
+[7.269035] (-) TimerEvent: {}
+[7.399176] (rectify) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.399406] (-) TimerEvent: {}
+[7.430839] (rectify) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[7.433036] (rectify) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.524919] (rectify) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[7.525042] (-) TimerEvent: {}
+[7.596565] (rectify) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[7.617506] (rectify) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[7.638016] (rectify) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[7.638169] (-) TimerEvent: {}
+[7.638327] (rectify) StderrLine: {'line': b'  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 21, in <module>\n'}
+[7.638442] (rectify) StderrLine: {'line': b'    from catkin_pkg.package import parse_package_string\n'}
+[7.638538] (rectify) StderrLine: {'line': b"ModuleNotFoundError: No module named 'catkin_pkg'\n"}
+[7.640268] (rectify) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):\n'}
+[7.640344] (rectify) StderrLine: {'line': b'  execute_process(/home/anthony/miniconda3/bin/python3\n'}
+[7.640384] (rectify) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[7.640419] (rectify) StderrLine: {'line': b'  /home/anthony/workspaces/lid_cam_ws/src/rectify/package.xml\n'}
+[7.640454] (rectify) StderrLine: {'line': b'  /home/anthony/workspaces/lid_cam_ws/src/rectify/build/rectify/ament_cmake_core/package.cmake)\n'}
+[7.640488] (rectify) StderrLine: {'line': b'  returned error code 1\n'}
+[7.640529] (rectify) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[7.640562] (rectify) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[7.640596] (rectify) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[7.640630] (rectify) StderrLine: {'line': b'  CMakeLists.txt:34 (ament_lint_auto_find_test_dependencies)\n'}
+[7.640664] (rectify) StderrLine: {'line': b'\n'}
+[7.640725] (rectify) StderrLine: {'line': b'\n'}
+[7.641550] (rectify) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[7.641625] (rectify) StdoutLine: {'line': b'See also "/home/anthony/workspaces/lid_cam_ws/src/rectify/build/rectify/CMakeFiles/CMakeOutput.log".\n'}
+[7.641665] (rectify) StdoutLine: {'line': b'See also "/home/anthony/workspaces/lid_cam_ws/src/rectify/build/rectify/CMakeFiles/CMakeError.log".\n'}
+[7.647708] (rectify) CommandEnded: {'returncode': 1}
+[7.667838] (rectify) JobEnded: {'identifier': 'rectify', 'rc': 1}
+[7.680392] (-) EventReactorShutdown: {}

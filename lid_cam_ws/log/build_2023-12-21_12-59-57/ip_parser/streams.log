@@ -1,0 +1,37 @@
+[1.099s] Invoking command in '/home/anthony/lidar_camera_overlay/lid_cam_ws/src/ip_parser': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/anthony/lidar_camera_overlay/lid_cam_ws/build/ip_parser/prefix_override:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ip_parser build --build-base /home/anthony/lidar_camera_overlay/lid_cam_ws/build/ip_parser/build install --record /home/anthony/lidar_camera_overlay/lid_cam_ws/build/ip_parser/install.log --install-scripts $base/lib/ip_parser --single-version-externally-managed
+[1.300s] running egg_info
+[1.300s] creating ../../build/ip_parser/ip_parser.egg-info
+[1.301s] writing ../../build/ip_parser/ip_parser.egg-info/PKG-INFO
+[1.302s] writing dependency_links to ../../build/ip_parser/ip_parser.egg-info/dependency_links.txt
+[1.302s] writing entry points to ../../build/ip_parser/ip_parser.egg-info/entry_points.txt
+[1.302s] writing requirements to ../../build/ip_parser/ip_parser.egg-info/requires.txt
+[1.302s] writing top-level names to ../../build/ip_parser/ip_parser.egg-info/top_level.txt
+[1.308s] writing manifest file '../../build/ip_parser/ip_parser.egg-info/SOURCES.txt'
+[1.348s] reading manifest file '../../build/ip_parser/ip_parser.egg-info/SOURCES.txt'
+[1.349s] writing manifest file '../../build/ip_parser/ip_parser.egg-info/SOURCES.txt'
+[1.350s] running build
+[1.351s] running build_py
+[1.351s] creating /home/anthony/lidar_camera_overlay/lid_cam_ws/build/ip_parser/build
+[1.352s] creating /home/anthony/lidar_camera_overlay/lid_cam_ws/build/ip_parser/build/lib
+[1.352s] creating /home/anthony/lidar_camera_overlay/lid_cam_ws/build/ip_parser/build/lib/ip_parser
+[1.352s] copying ip_parser/ip_parser.py -> /home/anthony/lidar_camera_overlay/lid_cam_ws/build/ip_parser/build/lib/ip_parser
+[1.353s] copying ip_parser/__init__.py -> /home/anthony/lidar_camera_overlay/lid_cam_ws/build/ip_parser/build/lib/ip_parser
+[1.353s] running install
+[1.353s] running install_lib
+[1.354s] creating /home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser/lib/python3.8/site-packages/ip_parser
+[1.355s] copying /home/anthony/lidar_camera_overlay/lid_cam_ws/build/ip_parser/build/lib/ip_parser/ip_parser.py -> /home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser/lib/python3.8/site-packages/ip_parser
+[1.355s] copying /home/anthony/lidar_camera_overlay/lid_cam_ws/build/ip_parser/build/lib/ip_parser/__init__.py -> /home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser/lib/python3.8/site-packages/ip_parser
+[1.355s] byte-compiling /home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser/lib/python3.8/site-packages/ip_parser/ip_parser.py to ip_parser.cpython-38.pyc
+[1.357s] byte-compiling /home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser/lib/python3.8/site-packages/ip_parser/__init__.py to __init__.cpython-38.pyc
+[1.358s] running install_data
+[1.358s] creating /home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser/share/ament_index
+[1.359s] creating /home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser/share/ament_index/resource_index
+[1.359s] creating /home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser/share/ament_index/resource_index/packages
+[1.360s] copying resource/ip_parser -> /home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser/share/ament_index/resource_index/packages
+[1.360s] copying package.xml -> /home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser/share/ip_parser
+[1.360s] running install_egg_info
+[1.361s] Copying ../../build/ip_parser/ip_parser.egg-info to /home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser/lib/python3.8/site-packages/ip_parser-0.0.0-py3.8.egg-info
+[1.362s] running install_scripts
+[1.387s] Installing ip_parser script to /home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser/lib/ip_parser
+[1.388s] writing list of installed files to '/home/anthony/lidar_camera_overlay/lid_cam_ws/build/ip_parser/install.log'
+[1.413s] Invoked command in '/home/anthony/lidar_camera_overlay/lid_cam_ws/src/ip_parser' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/anthony/lidar_camera_overlay/lid_cam_ws/build/ip_parser/prefix_override:/home/anthony/lidar_camera_overlay/lid_cam_ws/install/ip_parser/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ip_parser build --build-base /home/anthony/lidar_camera_overlay/lid_cam_ws/build/ip_parser/build install --record /home/anthony/lidar_camera_overlay/lid_cam_ws/build/ip_parser/install.log --install-scripts $base/lib/ip_parser --single-version-externally-managed

@@ -1,0 +1,32 @@
+[0.011s] Invoking command in '/home/anthony/workspaces/lid_cam_ws/src/rectify/build/rectify': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anthony/workspaces/lid_cam_ws/install/rel_vel:/home/anthony/workspaces/lid_cam_ws/install/lid_cam_calib:/home/anthony/workspaces/lid_cam_ws/install/ip_parser:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/anthony/workspaces/lid_cam_ws/src/rectify -DCMAKE_INSTALL_PREFIX=/home/anthony/workspaces/lid_cam_ws/src/rectify/install/rectify
+[0.023s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.050s] -- Using PYTHON_EXECUTABLE: /home/anthony/miniconda3/bin/python3
+[0.175s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.392s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.394s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[7.397s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.429s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[7.431s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.523s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[7.595s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[7.616s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[7.636s] Traceback (most recent call last):
+[7.636s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 21, in <module>
+[7.637s]     from catkin_pkg.package import parse_package_string
+[7.637s] ModuleNotFoundError: No module named 'catkin_pkg'
+[7.638s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[7.638s]   execute_process(/home/anthony/miniconda3/bin/python3
+[7.639s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[7.639s]   /home/anthony/workspaces/lid_cam_ws/src/rectify/package.xml
+[7.639s]   /home/anthony/workspaces/lid_cam_ws/src/rectify/build/rectify/ament_cmake_core/package.cmake)
+[7.639s]   returned error code 1
+[7.639s] Call Stack (most recent call first):
+[7.639s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[7.639s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[7.639s]   CMakeLists.txt:34 (ament_lint_auto_find_test_dependencies)
+[7.639s] 
+[7.639s] 
+[7.640s] -- Configuring incomplete, errors occurred!
+[7.640s] See also "/home/anthony/workspaces/lid_cam_ws/src/rectify/build/rectify/CMakeFiles/CMakeOutput.log".
+[7.640s] See also "/home/anthony/workspaces/lid_cam_ws/src/rectify/build/rectify/CMakeFiles/CMakeError.log".
+[7.647s] Invoked command in '/home/anthony/workspaces/lid_cam_ws/src/rectify/build/rectify' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anthony/workspaces/lid_cam_ws/install/rel_vel:/home/anthony/workspaces/lid_cam_ws/install/lid_cam_calib:/home/anthony/workspaces/lid_cam_ws/install/ip_parser:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/anthony/workspaces/lid_cam_ws/src/rectify -DCMAKE_INSTALL_PREFIX=/home/anthony/workspaces/lid_cam_ws/src/rectify/install/rectify
